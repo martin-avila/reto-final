@@ -1,0 +1,456 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body
+{
+    margin-top: 11%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+footer
+{
+
+}
+
+footer p 
+{
+    text-align:  center;
+}
+
+
+main 
+ {
+    flex: 1 0 auto;
+ }
+
+
+header
+{
+    background-color:  #000;
+    height: 19%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 1px 5px #999;
+    -webkit-box-shadow: 0 1px 5px #999;
+    -moz-box-shadow: 0 1px 5px #999;
+}
+
+
+header h1
+{
+    color: #fff;
+}
+
+.all-comentarios
+{
+    margin-left: 35px;
+}
+
+.article-title
+{
+    color: #212121;
+    display: inline-block;
+    font-family: Arial, Sans-serif, Verdana;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 35px;
+
+}
+
+.article-body
+{
+    font-family: Arial, Sans-serif, Verdana;
+    font-size: 10px;
+    font-size: 1rem;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.article-footer
+{
+    font-family: Arial, Sans-serif, Verdana;
+    font-size: 10px;
+    font-size: 1rem;
+    margin-left: 35px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.btnComentar
+{
+       
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+
+.buscar
+{
+    margin-left: 15px;
+}
+
+.categorias
+{
+    margin-left: 15px;
+}
+
+.categorias li 
+{
+    border-bottom: 1px solid #212121;
+    margin-bottom: 15px;
+    margin-top: 13px;
+    margin-left: 20px;
+    width: 90%;
+
+}
+
+.categorias li a
+{
+    color: #212121;
+}
+
+.categorias li a:hover
+{
+    color: #FF6009;
+    margin-left: 20px;
+}
+
+.comentarios
+{
+    border: 0;
+    box-shadow: 0 1px 5px rgba(179,179,179,1);
+    margin: 25px 35px 25px 35px;
+    padding: 35px 45px 20px 20px;
+
+}
+
+
+.comentario-body
+{
+    font-family: Arial, Sans-serif, Verdana;
+    font-size: 12px;
+    margin-left: 160px;
+    margin-top: -45px;
+    width: 80%;
+    
+}
+
+.comentario-nuevo
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 65%;
+}
+
+.fecha
+{
+    margin-right: 35px;
+}
+
+
+
+.menu-active
+{
+    background-color: #FF6009;
+    font-size: 20px;
+}
+
+.menu-lateral
+{
+    background-color: #212121;
+    border-radius: 10px;
+    margin-left: 15px;
+    padding: 7px;
+    width: 90%;
+}
+
+.menu-lateral li 
+{
+    color: #fff;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+.menu-lateral li a 
+{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.menu-lateral li:hover
+{
+    background-color: #FF6009;
+
+}
+
+.menu-lateral li a:hover
+{
+    font-size: 20px;
+}
+
+.name-user
+{
+    color: #212121;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image-user
+{
+    border: solid 2px #000;
+    margin-left: 10px;
+    margin-top: 13px;
+    padding-left: 14px;
+    width: 12%;
+    display: inline-block;
+}
+
+.image-user1
+{
+    border: solid 2px #000;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.pagination
+{
+    text-align: center;
+}
+
+
+.recents-post
+{
+    margin-left: 15px;
+}
+
+.recents-post li 
+{
+    border-bottom: 1px solid #212121;
+    margin-bottom: 15px;
+    margin-top: 13px;
+    margin-left: 20px;
+    width: 90%;
+
+}
+
+.recents-post li a
+{
+    color: #212121;
+}
+
+.recents-post li a:hover
+{
+    color: #FF6009;
+    margin-left: 20px;
+}
+
+.suscribirse
+{
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
